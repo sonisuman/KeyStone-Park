@@ -7,9 +7,18 @@
 //
 
 import UIKit
+import CoreData
 
 class KeyStoneTableViewTableViewController: UITableViewController {
+  var moc : NSManagedObjectContext? {
+    didSet {
+      if let moc = moc {
+        lessonService = LessonService(moc: moc)
+      }
+    }
+  }
   
+  private var lessonService: LessonService?
    var student = ["Ben","Soni","Rajeev"]
 
     override func viewDidLoad() {
