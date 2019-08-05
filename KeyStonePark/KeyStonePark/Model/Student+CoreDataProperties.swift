@@ -2,7 +2,7 @@
 //  Student+CoreDataProperties.swift
 //  KeyStonePark
 //
-//  Created by soni suman on 03/08/19.
+//  Created by Soni Suman on 8/5/19.
 //  Copyright © 2019 soni suman. All rights reserved.
 //
 //
@@ -18,7 +18,6 @@ extension Student {
     }
 
     @NSManaged public var name: String?
-    @NSManaged public var lesson: String?
-    @NSManaged public var lessons: Student?
+    @NSManaged public var lesson: Lesson?
 
 }

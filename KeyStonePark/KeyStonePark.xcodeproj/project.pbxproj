@@ -12,12 +12,13 @@
 		E407115122F4B9F90094C31B /* KeyStonePark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E407114F22F4B9F90094C31B /* KeyStonePark.xcdatamodeld */; };
 		E407115322F4B9FB0094C31B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E407115222F4B9FB0094C31B /* Assets.xcassets */; };
 		E407115622F4B9FB0094C31B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E407115422F4B9FB0094C31B /* LaunchScreen.storyboard */; };
-		E419C39B22F572C200E3AF4C /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E419C39722F572C200E3AF4C /* Student+CoreDataClass.swift */; };
-		E419C39C22F572C200E3AF4C /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E419C39822F572C200E3AF4C /* Student+CoreDataProperties.swift */; };
-		E419C39D22F572C200E3AF4C /* Lesson+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E419C39922F572C200E3AF4C /* Lesson+CoreDataClass.swift */; };
-		E419C39E22F572C200E3AF4C /* Lesson+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E419C39A22F572C200E3AF4C /* Lesson+CoreDataProperties.swift */; };
 		E419C3A022F572FC00E3AF4C /* KeyStoneTableViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E419C39F22F572FC00E3AF4C /* KeyStoneTableViewTableViewController.swift */; };
 		E419C3A222F57C8900E3AF4C /* LessonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E419C3A122F57C8900E3AF4C /* LessonService.swift */; };
+		E48640A922F8313D00F9607D /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48640A522F8313D00F9607D /* Student+CoreDataClass.swift */; };
+		E48640AA22F8313D00F9607D /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48640A622F8313D00F9607D /* Student+CoreDataProperties.swift */; };
+		E48640AB22F8313D00F9607D /* Lesson+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48640A722F8313D00F9607D /* Lesson+CoreDataClass.swift */; };
+		E48640AC22F8313D00F9607D /* Lesson+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48640A822F8313D00F9607D /* Lesson+CoreDataProperties.swift */; };
+		E48640AE22F850F500F9607D /* LessonDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48640AD22F850F500F9607D /* LessonDetailsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +29,13 @@
 		E407115222F4B9FB0094C31B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E407115522F4B9FB0094C31B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E407115722F4B9FB0094C31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E419C39722F572C200E3AF4C /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
-		E419C39822F572C200E3AF4C /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		E419C39922F572C200E3AF4C /* Lesson+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson+CoreDataClass.swift"; sourceTree = "<group>"; };
-		E419C39A22F572C200E3AF4C /* Lesson+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E419C39F22F572FC00E3AF4C /* KeyStoneTableViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStoneTableViewTableViewController.swift; sourceTree = "<group>"; };
 		E419C3A122F57C8900E3AF4C /* LessonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonService.swift; sourceTree = "<group>"; };
+		E48640A522F8313D00F9607D /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E48640A622F8313D00F9607D /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E48640A722F8313D00F9607D /* Lesson+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E48640A822F8313D00F9607D /* Lesson+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lesson+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E48640AD22F850F500F9607D /* LessonDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonDetailsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				E407114822F4B9F90094C31B /* AppDelegate.swift */,
 				E419C39F22F572FC00E3AF4C /* KeyStoneTableViewTableViewController.swift */,
+				E48640AD22F850F500F9607D /* LessonDetailsTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -97,11 +100,11 @@
 		E407115F22F4BA160094C31B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E419C39722F572C200E3AF4C /* Student+CoreDataClass.swift */,
+				E48640A722F8313D00F9607D /* Lesson+CoreDataClass.swift */,
+				E48640A522F8313D00F9607D /* Student+CoreDataClass.swift */,
+				E48640A622F8313D00F9607D /* Student+CoreDataProperties.swift */,
+				E48640A822F8313D00F9607D /* Lesson+CoreDataProperties.swift */,
 				E407114F22F4B9F90094C31B /* KeyStonePark.xcdatamodeld */,
-				E419C39822F572C200E3AF4C /* Student+CoreDataProperties.swift */,
-				E419C39922F572C200E3AF4C /* Lesson+CoreDataClass.swift */,
-				E419C39A22F572C200E3AF4C /* Lesson+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,14 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E419C39D22F572C200E3AF4C /* Lesson+CoreDataClass.swift in Sources */,
+				E48640AA22F8313D00F9607D /* Student+CoreDataProperties.swift in Sources */,
+				E48640AE22F850F500F9607D /* LessonDetailsTableViewController.swift in Sources */,
+				E48640AC22F8313D00F9607D /* Lesson+CoreDataProperties.swift in Sources */,
 				E407115122F4B9F90094C31B /* KeyStonePark.xcdatamodeld in Sources */,
-				E419C39B22F572C200E3AF4C /* Student+CoreDataClass.swift in Sources */,
+				E48640AB22F8313D00F9607D /* Lesson+CoreDataClass.swift in Sources */,
 				E419C3A222F57C8900E3AF4C /* LessonService.swift in Sources */,
-				E419C39C22F572C200E3AF4C /* Student+CoreDataProperties.swift in Sources */,
 				E419C3A022F572FC00E3AF4C /* KeyStoneTableViewTableViewController.swift in Sources */,
 				E407114922F4B9F90094C31B /* AppDelegate.swift in Sources */,
-				E419C39E22F572C200E3AF4C /* Lesson+CoreDataProperties.swift in Sources */,
+				E48640A922F8313D00F9607D /* Student+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5UJB27KNU5;
 				INFOPLIST_FILE = KeyStonePark/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -359,6 +364,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5UJB27KNU5;
 				INFOPLIST_FILE = KeyStonePark/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
